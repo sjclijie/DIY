@@ -10,13 +10,13 @@
 </template>
 <script>
 	export default {
-		props: {
-			title : String
-		},
-		methods : {
-			myevent : function(){
-				alert( this.title );
-			}
-		}
+        props: {
+            title : String
+        },
+        methods : {
+            myevent : function(){
+                alert( this.title );
+            }
+        }
 	}
 </script>

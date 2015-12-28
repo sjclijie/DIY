@@ -1,5 +1,6 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var vue = require('vue-loader');
+
 module.exports = {
 	entry: './src/main.js',
 	output: {

@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<athena-title title="标题"></athena-title>
+        <athena-title title="标题"></athena-title>
 		<athena-banner></athena-banner>
 	</div>
 </template>

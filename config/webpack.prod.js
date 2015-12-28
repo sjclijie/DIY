@@ -1,5 +1,6 @@
-var webpack = require('webpack')
-var config = require('./webpack.base')
+var webpack = require('webpack');
+var config = require('./webpack.base');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 config.vue = {
   loaders: {
