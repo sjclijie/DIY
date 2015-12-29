@@ -1,6 +1,6 @@
-var config = require('./webpack.base')
+var config = require('./webpack.base');
 
-config.devtool = '#source-map'
+config.devtool = '#source-map';
 
 config.devServer = {
 	noInfo: true
@@ -12,4 +12,4 @@ config.vue = {
 	}
 }
 
-module.exports = config
+module.exports = config;

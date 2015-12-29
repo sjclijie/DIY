@@ -4,9 +4,44 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="./static/js/hotcss.js"></script>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #eee;
+		}
+	</style>
 </head>
+
 <body>
-	<App></App>
+<div id="app">
+	<an-title :data="{title:'标题'}"></an-title>
+	<an-banner :data="{title:'标题'}"></an-banner>
+	<an-title :data="{title:'标题'}"></an-title>
+	<an-banner :data="{title:'标题'}"></an-banner>
+	<an-goods :data="{title:'标题'}"></an-goods>
+</div>
 </body>
-<script src="./build/main.js"></script>
+
+<!-- 基本库 -->
+<script src='./build/bootstrap/basic.js'></script>
+
+
+<!-- 组件列表 -->
+
+<script src='./build/components/title/index.js'></script>
+<link rel="stylesheet" href="./build/components/title/index.css">
+
+<script src='./build/components/banner/index.js'></script>
+<link rel="stylesheet" href="./build/components/banner/index.css">
+
+<script src='./build/components/goods/index.js'></script>
+<link rel="stylesheet" href="./build/components/goods/index.css">
+
+<!-- 组件列表 -->
+
+
+<!-- 引导文件 -->
+<script src='./build/bootstrap/index.js'></script>
+
 </html>
