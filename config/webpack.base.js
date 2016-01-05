@@ -1,4 +1,5 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 var webpack = require('webpack');
 
 
@@ -19,7 +20,9 @@ dirs.forEach(function( dir ){
 	if( stat.isDirectory() ){
 		entry['components/'+ dir ] = path.join( base , dir , 'index.js');
 	}
-})
+});
+
+console.log( entry );
 
 // ********* 自动扫描目录 end ********** //
 
